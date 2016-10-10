@@ -1,0 +1,56 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+title = "My New Hugo Site"
+languageCode = "en-us"
+
+[params]
+  # Hero Section
+  [params.hero]
+    title = "Hi, I'm Stormi"
+    buttonText = "About Me"
+
+  # About Section
+  [params.about]
+    enable = true
+    title = "Who am I"
+    description = "I'm the raddest individual you'll ever meet."
+
+  # Skills Section
+  [params.skill_list]
+    enable = true
+    title = "How I Can Help"
+    description = "I travel, I inspire, and I drink hoppy beer"
+
+    [[params.skills]]
+      icon = "fa-anchor"
+      title = "Certification"
+
+    [[params.skills]]
+      icon = "fa-glass"
+      title = "Resort Experience"
+
+    [[params.skills]]
+      icon = "fa-bed"
+      title = "House Keeping"
+
+    [[params.skills]]
+      icon = "fa-heartbeat"
+      title = "Medical Training"
+
+  # Info Section
+  [params.infos]
+    enable = true
+    title = "References"
+    description = "A few people that think I'm awesome"
+
+  [params.footer]
+    enable = true
+    title = "Get in Touch"
+
+    # Contact Form
+    [params.footer.contact]
+      enable = true
+
+    [params.footer.contact.form]
+      name = "Stormi"
+      email = "stormigarvey@yahoo.com"
+      buttonText = "send message"
