@@ -1,0 +1,21 @@
+<div class="jobs">
+  {{ range .Site.Params.jobs }}
+    <hr>
+    <div class="job-info">
+      <p class="company-name">{{ .companyName }}, {{ .location }}</p>
+      <p class="job-timeline">{{ .dateRange }}</p>
+      <p class="job-title">{{ .title }}</p>
+      <div class="highlights">
+        <ul>
+          <li>{{ .highlight1 }}</li>
+          {{ if .highlight2 }}
+            <li>{{ .highlight2 }}</li>
+          {{end}}
+          {{ if .highlight3 }}
+            <li>{{ .highlight3 }}</li>
+          {{end}}
+        </ul>
+      </div>
+    </div>
+  {{ end }}
+</div>

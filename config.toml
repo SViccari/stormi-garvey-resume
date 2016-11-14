@@ -1,5 +1,5 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
-title = "My New Hugo Site"
+# baseurl = "http://replace-this-with-your-hugo-site.com/" TBD
+title = "Stormi Garvey"
 languageCode = "en-us"
 
 [params]
@@ -7,38 +7,138 @@ languageCode = "en-us"
   [params.hero]
     title = "Hi, I'm Stormi"
     buttonText = "About Me"
+    picture = "profile-picture-rectangle.jpg"
 
   # About Section
   [params.about]
     enable = true
     title = "Who am I"
-    description = "I'm the raddest individual you'll ever meet."
+    intro = """I am a US Citizen, residing in
+    Ft. Lauderdale, seeking a full-time Stewardess or Deckhand
+    position on a busy Charter boat."""
+    details = """I have spent three seasons in Alaska,
+    working in various hospitality roles. Working with an influx of guests
+    requires a fast pace, quick decision making, and fluidity to work well
+    with everyone. I am a fan of going zero to sixty when it comes to working
+    hard. Finding the positive in every situation is like a religion for me.
+    My ideal position would be amongst energetic, hardworking individuals that
+    I can learn and grow with."""
+
+  # Certifications Section
+  [params.certification_list]
+    enable = true
+    title = "Certifications"
+
+    [[params.certifications]]
+      title = "STCW-95"
+
+    [[params.certifications]]
+      title = "ENG 1"
+
+    [[params.certifications]]
+      title = "PADI Open Water"
+
+    [[params.certifications]]
+      title = "BS Marketing"
+
+    [[params.certifications]]
+      title = "Security Awareness"
+
+  # Jobs Section
+  [params.job_list]
+    enable = true
+    title = "Work Experience"
+
+    [[params.jobs]]
+      companyName = "Beaumont Consulting Office"
+      location = "Sydney, Australia"
+      title = "Secretary"
+      dateRange = "October 2015 - February 2016"
+      highlight1 = "Secretarial and assistance positions at varied Institutes"
+      highlight2 = "Governance Institute of Australia – Knowledge of Governance courses provided by Institute"
+      highlight3 = "Australian Institute of Fitness – Front Desk multitasking skills and setting up course rooms"
+
+    [[params.jobs]]
+      companyName = "Bob’s Trophy Charters"
+      location = "Homer, Australia"
+      title = "Halibut Deckhand"
+      dateRange = "April 2015 - September 2015"
+      highlight1 = "Working professionally with crew to provide a safe/fun experience fishing for Halibut and Salmon on our 52-foot vessel in Kachemak Bay, Alaska."
+      highlight2 = "Maintaining proper inspection of vessel, upkeep and cleaning of vessel and handling along with filleting Alaskan Halibut"
+
+    [[params.jobs]]
+      companyName = "Duffy’s Love Shack"
+      location = "St. Thomas U.S. Virgin Islands"
+      title = "Server"
+      dateRange = "January 2015 - April 2015"
+      highlight1 = "Enthusiastic customer service serving tables and educating guests with island excursions or trivia"
+
+    [[params.jobs]]
+      companyName = "Aramark McKinley Village"
+      location = "Denali, Alaska"
+      title = "Server"
+      dateRange = "June 2014 - September 2014"
+      highlight1 = "Providing quality customer service while up-selling packages and tours into Denali National Park."
+
+    [[params.jobs]]
+      companyName = "Tonglen Lake Lodge"
+      location = "Denali, Alaska"
+      title = "Barista and Housekeeping"
+      dateRange = "June 2014 - September 2014"
+      highlight1 = "Housekeeping: Meticulous Cleaning and turning over bedrooms each day"
+      highlight2 = "Barista skills required work in the Café serving varied coffee beverages"
+
+    [[params.jobs]]
+      companyName = "Aramark Denali Chalet"
+      location = "Denali, Alaska"
+      title = "Server"
+      dateRange = "May 2013 - September 2013"
+      highlight1 = "Up-selling packages and rafting tours of Denali while providing quality food & beverage service"
+
+    [[params.jobs]]
+      companyName = "Arthur’s Catering"
+      location = "Orlando, Florida"
+      title = "Event Coordinator Assistant at Casa Feliz"
+      dateRange = "August 2011 - January 2012"
+      highlight1 = "Supervised events as captain of the catering team and sales rep for Arthur’s Catering."
+      highlight2 = "Required planning and organizational skills, building trust with clientele, aptitude to handle sporadic mishaps or unplanned dilemmas, and ability to balance several tasks while maintaining professional composure"
+
+    [[params.jobs]]
+      companyName = "Arthur’s Catering"
+      location = "Orlando, Florida"
+      title = "Server"
+      dateRange = "September 2007 - January 2012"
+      highlight1 = "Supervised events as captain of the catering team and sales rep for Arthur’s Catering."
+      highlight2 = "Required planning and organizational skills, building trust with clientele, aptitude to handle sporadic mishaps or unplanned dilemmas, and ability to balance several tasks while maintaining professional composure"
+
 
   # Skills Section
   [params.skill_list]
-    enable = true
-    title = "How I Can Help"
-    description = "I travel, I inspire, and I drink hoppy beer"
+    enable = false
+    title = "Work Experience"
 
     [[params.skills]]
-      icon = "fa-anchor"
-      title = "Certification"
+      title = "Fishing Deckhand"
 
     [[params.skills]]
-      icon = "fa-glass"
-      title = "Resort Experience"
+      title = "Catering"
 
     [[params.skills]]
-      icon = "fa-bed"
-      title = "House Keeping"
+      title = "Waitressing"
 
     [[params.skills]]
-      icon = "fa-heartbeat"
-      title = "Medical Training"
+      title = "Barista"
+
+    [[params.skills]]
+      title = "Housekeeping"
+
+    [[params.skills]]
+      title = "Event Planning"
+
 
   # Info Section
   [params.infos]
-    enable = true
+    enable = false
     title = "References"
     description = "A few people that think I'm awesome"
 

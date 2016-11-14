@@ -15,8 +15,16 @@
 			{{ partial "about.html" . }}
 		{{ end }}
 
+		{{ if .Site.Params.certification_list.enable }}
+			{{ partial "certifications.html" . }}
+		{{ end }}
+
 		{{ if .Site.Params.skill_list.enable }}
 			{{ partial "skills.html" . }}
+		{{ end }}
+
+		{{ if .Site.Params.job_list.enable }}
+			{{ partial "jobs.html" . }}
 		{{ end }}
 
 		{{ if .Site.Params.infos.enable }}

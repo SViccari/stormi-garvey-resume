@@ -1,8 +1,9 @@
 {{ "<!-- Hero -->" | safeHTML}}
 <section id="header">
   <header class="major 1">
-    <h1>{{ with .Site.Params.hero.title }} {{ . | markdownify }} {{ end }}</h1>
-    <p>{{ with .Site.Params.hero.description }} {{ . | markdownify }} {{ end }}</p>
+    <div class="greeting">
+      <h1>{{ with .Site.Params.hero.title }} {{ . | markdownify }} {{ end }}</h1>
+    </div>
   </header>
   <div class="container">
     <ul class="actions">
