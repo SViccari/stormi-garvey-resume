@@ -1768,6 +1768,36 @@ button,
 	width: 80%;
 }
 
+/* Certifications */
+.certifications-list {
+  list-style-type: none;
+}
+
+/* Jobs */
+.company-name {
+  font-weight: bold;
+}
+.jobs {
+  text-align: left;
+}
+.jobs p {
+  margin: 0;
+}
+.job-timeline {
+  font-style: italic;
+}
+.job-title {
+  font-weight: bold;
+}
+.highlights {
+  padding-top: 10px;
+  padding-left: 5%;
+}
+hr {
+  width:100%;
+  height:1px;
+}
+
 /* Footer */
 
 #footer {
