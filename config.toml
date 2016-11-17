@@ -151,6 +151,5 @@ languageCode = "en-us"
       enable = true
 
     [params.footer.contact.form]
-      name = "Stormi"
       email = "stormigarvey@yahoo.com"
       buttonText = "send message"
