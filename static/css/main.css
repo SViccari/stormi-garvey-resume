@@ -1,6 +1,31 @@
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Raleway:400,400italic,700,800");
 
+/* Table of Contents
+   - - - - - - - - -
+	 Colors
+	 Reset
+	 Box Model
+   Containers
+	 Grid
+	 Basic (styles applied to html elements)
+	 Loader (spinner)
+	 Form
+	 Icon
+	 Image
+	 List
+	 Table
+	 Button
+	 Main
+	 Header
+	 About
+	 Certifications
+	 Jobs
+	 Footer
+	 Media Queries (1680px, 980px, 736px, 480px, 380px)
+   - - - - - - - - -
+ */
+
 /* Colors */
 :root {
   --blue: #8ABDD2;
